@@ -1,9 +1,9 @@
 node {
    def mvnHome
    def scannerHome
-   stage('https://github.com/BalajeeRJS/Jenkins_demo.git') { // for display purposes
+   stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
-      git 'https://gitlab.com/whizay/multibranchproject.git'
+      git 'https://github.com/BalajeeRJS/Jenkins_demo.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.
